@@ -13,3 +13,5 @@ services:
       DB_PASSWD: r00t
     ports:
       - 8080:80
+    volumes:
+      - ./src:/var/www/html
